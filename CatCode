@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat on the Mat</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fef8ee;
+      margin: 0;
+      padding: 0;
+      color: #3e3e3e;
+    }
+
+    header {
+      background: linear-gradient(to bottom, #bce8e1 0%, #fef8ee 80%);
+      text-align: center;
+      padding: 2rem 1rem;
+      position: relative;
+    }
+
+    header h1 {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 2.5rem;
+      color: #924c3d;
+    }
+
+    header p {
+      color: #4a7b46;
+      font-size: 1.2rem;
+      margin-top: -10px;
+    }
+
+    .main-image {
+      display: flex;
+      justify-content: center;
+      margin-top: -40px;
+    }
+
+    .main-image img {
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .content h2 {
+      color: #924c3d;
+      font-size: 1.8rem;
+    }
+
+    .content p {
+      max-width: 500px;
+      margin: 0 auto 1.5rem;
+      font-size: 1.1rem;
+      color: #405339;
+    }
+
+    .shop-button {
+      background-color: #8cae91;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .shop-button:hover {
+      background-color: #729c7e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="cat-logo.png" alt="Cat Logo" style="height: 80px;">
+    <h1>Cat on the mat</h1>
+    <p>Slate art for soulful spaces</p>
+  </header>
+  <div class="main-image">
+    <img src="weather-slate.jpg" alt="Hand-painted slate">
+  </div>
+  <div class="content">
+    <h2>Where art meets simplicity</h2>
+    <p>
+      Discover our collection of hand-painted weather slates, crafted with care to add a personal touch to your home.
+    </p>
+    <button class="shop-button">SHOP NOW</button>
+  </div>
+  <footer>
+    &copy; 2025 Cat on the Mat. All rights reserved.
+  </footer>
+</body>
+</html>
